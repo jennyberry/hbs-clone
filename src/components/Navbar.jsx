@@ -1,6 +1,4 @@
 import { navLinks } from "../constants"
-// import { logo, user, search, cart } from "../assets"
-// import {logo} from "../assets"
 
 const Navbar = () => {
   return (
@@ -8,11 +6,11 @@ const Navbar = () => {
     <nav className="w-full flex py-6 navbar flex-col">
       <div className="flex justify-between items-center pb-5">
       <div>VND</div>
-      <img src="./logo.png" alt="hbs-logo" />
+      <img src="assets/logo.png" alt="hbs-logo" />
       <div className="flex justify-between items-center">
-        <img src="./search.png" alt="search-icon" className="object-contain w-[24px] h-[24px] mr-2" />
-        <img src="./user.png" alt="user-icon" className ="object-contain w-[24px] h-[24px] mr-2" />
-        <img src="./cart.png" alt="cart-icon" />
+        <img src="assets/search.png" alt="search-icon" className="object-contain w-[24px] h-[24px] mr-2" />
+        <img src="assets/user.png" alt="user-icon" className ="object-contain w-[24px] h-[24px] mr-2" />
+        <img src="assets/cart.png" alt="cart-icon" />
         </div>
         </div>
       <div className="flex justify-between items-center text-left pt-5">
