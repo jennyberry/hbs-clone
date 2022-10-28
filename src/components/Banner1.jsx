@@ -8,7 +8,7 @@ const Banner1 = () => {
         <button className="bg-black text-white px-10 py-5 mt-10 font-poppins text-lg rounded-[10px] w-[300px]">SHOP NOW</button>
       </div>
       <div className={layout.sectionImg}>
-        <img src='/banner-1.jpg' alt='banner1' className="rounded-[5px] max-h-[650px]"/>
+        <img src='banner-1.jpg' alt='banner1' className="rounded-[5px] max-h-[650px]"/>
       </div>
     </section>
   )

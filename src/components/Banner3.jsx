@@ -10,7 +10,7 @@ const Banner3 = () => {
         <div className={styles.line}></div>
           </div>
     <div className={layout.sectionImg}>
-      <img src='/banner-4.jpeg' alt='banner1' className="rounded-[5px] max-h-[650px]"/>
+      <img src='banner-4.jpeg' alt='banner1' className="rounded-[5px] max-h-[650px]"/>
     </div>
   </section>
   )

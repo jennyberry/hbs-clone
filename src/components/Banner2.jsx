@@ -4,7 +4,7 @@ const Banner2 = () => {
   return (
     <section id="card" className={`${layout.section}`}>
       <div className={`${layout.sectionInfo} mr-40 ml-20`}>
-        <img src='/banner-2.jpg' alt='banner2' className=" rounded-[5px] max-h-[650px]"/>
+        <img src='banner-2.jpg' alt='banner2' className=" rounded-[5px] max-h-[650px]"/>
       </div>
       <div className={layout.sectionInfo}>
         <div className={`${styles.line} ml-10`}></div>

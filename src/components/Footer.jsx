@@ -14,7 +14,7 @@ const Footer = () => {
       <div>
         <h3 className={styles.heading3}>Find a store</h3>
         <div className='flex flex-row'>
-          <img src='/location.png' alt='address' className='w-[30px] h-[30px] object-contain'/>
+          <img src='location.png' alt='address' className='w-[30px] h-[30px] object-contain'/>
           <p className='font-light text-[15px] ml-2'>8 Nguyen Hy Quang Street, <br />
             O Cho Dua Ward, Dong Da Dist, Hanoi</p>
         </div>
@@ -31,10 +31,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className='flex flex-row'>
-          <img src='/ig.png' className='object-contain mr-5'
+          <img src='ig.png' className='object-contain mr-5'
             alt='instagram'
             onClick={() => window.open("https://www.instagram.com/hbsvnofficial/")} />
-          <img src='/fb.png' className='object-contain'
+          <img src='fb.png' className='object-contain'
             alt='facebook'
             onClick={() => window.open("https://www.facebook.com/HBSVNOfficial")} />
         </div>
