@@ -4,7 +4,6 @@ import { Navbar, Hero, Banner1, Banner2, Banner3, Footer } from './components';
 
 function App() {
 
-
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
