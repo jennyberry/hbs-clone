@@ -2,6 +2,7 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   line: "w-[300px] h-[3px] border-3 bg-black my-5",
+  lineHeading: "w-[110px] h-[3px] bg-black my-2 flex mx-auto ",
   heading3: "font-poppins font-semibold text-[18px] pt-5 pb-3",
 
   heading2:

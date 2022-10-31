@@ -144,3 +144,10 @@ span{
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.navItem:hover{
+  border-bottom: 2px solid black;
+}
+.navbar__link--active {
+  font-weight: 600;
+}

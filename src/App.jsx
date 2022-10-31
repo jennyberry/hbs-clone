@@ -1,38 +1,26 @@
 
-import styles from './style'
-import { Navbar, Hero, Banner1, Banner2, Banner3, Footer } from './components';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home, New, Clothes, Sale, Collections, Accessories} from './pages';
 function App() {
 
   return (
-    <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-      <Navbar/>
-        </div>
-      </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-        <Hero/>
-        </div>
-      </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-        <Banner1/>
-        </div>
-      </div>
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-       < Banner2/>
-        </div>
-        </div>
-        <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-       < Banner3/>
-      <Footer/>
-        </div>
-</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="hbs-clone/" element={ <Home/>
+       } />
+         <Route path="hbs-clone/new" element={ <New/>
+       } />
+        <Route path="hbs-clone/clothes" element={ <Clothes/>
+       } />
+        <Route path="hbs-clone/accessories" element={ <Accessories/>
+       } />
+        <Route path="hbs-clone/collections" element={ <Collections/>
+       } />
+        <Route path="hbs-clone/sale" element={ <Sale/>
+       } />
+
+      </Routes>
+    </BrowserRouter>
   )
 }
 
