@@ -1,11 +1,19 @@
 import { navLinks } from "../constants"
 import { Link, NavLink } from "react-router-dom"
+import { useState } from "react"
+import { DropdownBox } from '../components'
+import { v4 as uuidv4 } from 'uuid';
 const Navbar = () => {
+const [selected, setSelected] = useState("")
   return (
 
     <nav className="w-full flex py-6 navbar flex-col relative">
       <div className="flex justify-between items-center pb-5">
-        <div>VND</div>
+        {/* dropdown box */}
+        <DropdownBox
+          key={uuidv4}
+          selected={selected}
+          setSelected={setSelected} />
         <Link to="/hbs-clone/"><img src="assets/logo.png" alt="hbs-logo" className="cursor-pointer"/></Link>
 
       <div className="flex justify-between items-center">

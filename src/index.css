@@ -151,3 +151,24 @@ span{
 .navbar__link--active {
   font-weight: 600;
 }
+.dropdown{
+  width: 70px;
+cursor: pointer;
+user-select: none;
+}
+.dropdown-btn{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.dropdown-content{
+  position: absolute;
+  /* box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.07) */
+}
+.dropdown-item{
+  cursor: pointer;
+  padding: 5px;
+}
+.dropdown-item li:hover{
+  font-weight: 700;
+}

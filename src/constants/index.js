@@ -7,8 +7,13 @@ export const navLinks = [
     link: "new",
   },
   {
-    id: "clothes",
-    title: "CLOTHES",
+    id: "top",
+    title: "TOPS",
+    link: "clothes",
+  },
+  {
+    id: "bottoms",
+    title: "BOTTOMS",
     link: "clothes",
   },
   {

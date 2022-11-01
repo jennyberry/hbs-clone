@@ -4,7 +4,7 @@ const styles = {
   line: "w-[300px] h-[3px] border-3 bg-black my-5",
   lineHeading: "w-[110px] h-[3px] bg-black my-2 flex mx-auto ",
   heading3: "font-poppins font-semibold text-[18px] pt-5 pb-3",
-
+  titleHead: "text-center font-archivo font-semibold text-[40px] mt-20",
   heading2:
     "font-vietnam font-normal xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph:

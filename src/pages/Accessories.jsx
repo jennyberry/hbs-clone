@@ -11,7 +11,7 @@ const Accessories = () => {
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <div className='text-center font-archivo font-semibold text-[40px] mt-5'>
+          <div className={`${styles.titleHead}`}>
             <h1>ACCESSORIES</h1>
             <div className={`${styles.lineHeading}`}></div>
           </div>

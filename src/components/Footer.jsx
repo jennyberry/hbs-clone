@@ -9,7 +9,7 @@ const Footer = () => {
         <h3 className={styles.heading3}>Newsletter</h3>
           <input type="email"
             placeholder='Your email...'
-            className='py-3 px-5 max-w-[80%] max-h-[40px] rounded-[10px] bg-black text-white border-2'></input>
+            className='p-2 max-w-[80%] max-h-[40px] rounded-[10px] bg-black text-white border-2'></input>
       </div>
       <div>
         <h3 className={styles.heading3}>Find a store</h3>

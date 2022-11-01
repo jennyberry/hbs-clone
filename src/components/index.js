@@ -8,6 +8,7 @@ import NewProducts from "./NewProducts";
 import Allitems from "./Allitems";
 import AccessoriesItem from "./AccessoriesItem";
 import CollectionItem from "./CollectionItem";
+import DropdownBox from "./DropdownBox";
 export {
   Navbar,
   Hero,
@@ -19,4 +20,5 @@ export {
   Allitems,
   AccessoriesItem,
   CollectionItem,
+  DropdownBox,
 };
