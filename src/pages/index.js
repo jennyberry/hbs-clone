@@ -4,4 +4,6 @@ import New from "./New";
 import Sale from "./Sale";
 import Collections from "./Collections";
 import Accessories from "./Accessories";
-export { New, Clothes, Home, Sale, Collections, Accessories };
+import Tops from "./Tops";
+import Bottoms from "./Bottoms";
+export { New, Clothes, Home, Sale, Collections, Accessories, Tops, Bottoms };

@@ -15,6 +15,9 @@ module.exports = {
         vietnam: ["Be Vietnam Pro", "sans-serif"],
         archivo: ["Archivo", "sans-serif"],
       },
+      aspectRatio: {
+        "3/2": "3 / 2",
+      },
     },
     letterSpacing: {
       tightest: "-.075em",

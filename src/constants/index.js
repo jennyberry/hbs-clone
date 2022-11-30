@@ -9,12 +9,12 @@ export const navLinks = [
   {
     id: "top",
     title: "TOPS",
-    link: "clothes",
+    link: "tops",
   },
   {
     id: "bottoms",
     title: "BOTTOMS",
-    link: "clothes",
+    link: "bottoms",
   },
   {
     id: "accessories",
@@ -50,7 +50,82 @@ export const footerLinks = [
     link: "https://hbsvnofficial.com/",
   },
 ];
-
+export const tops = [
+  {
+    id: "top-1",
+    title: "HBS GRAPHIC HOODIE - YELLOW",
+    price: "480,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20221110/LAYOUT_STORY_HOODIE_copy.jpeg",
+  },
+  {
+    id: "top-2",
+    title: "HBS ''EMILY'' T-SHIRT",
+    price: "540,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/IMG_5517_compressed.jpg",
+  },
+  {
+    id: "top-3",
+    title: "HBS GREEN GRAPHIC T-SHIRT",
+    price: "500,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20221026/1666735359_679_93CB10B9_82B0_4C08_BAF6_5289759F5AF9.jpeg",
+  },
+  {
+    id: "top-4",
+    title: "HBS LIGHTNING BOMBER JACKET - BLACK",
+    price: "1,600,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220928/1664348007_300_699CEDDF_D03A_4836_916A_536518B4BDEE.jpeg",
+  },
+  {
+    id: "top-5",
+    title: "HBS PRINTED VELVET LOGO T-SHIRT",
+    price: "450,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20221026/1666735420_310_8E9BD901_0817_4A55_B329_7FF86FAE5D80.jpeg",
+  },
+  {
+    id: "top-6",
+    title: "HBSXVU ''MOTVANNAM'' T-SHIRT",
+    price: "500,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20221028/DA__NG_POST2_min.jpeg",
+  },
+];
+export const bottoms = [
+  {
+    id: "bottom-1",
+    title: "HBS HIGH WAISTED WIDE-FIT TROUSERS",
+    price: "950,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/Thiet_ke_chua_co_ten__1__compressed.jpg",
+  },
+  {
+    id: "bottom-2",
+    title: "HBS DISTRESSED WIDE-FIT PANTS - BLACK",
+    price: "740,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/Thiet_ke_chua_co_ten__3__compressed.jpg",
+  },
+  {
+    id: "bottom-3",
+    title: "HBS MINIMAL WIDE-FIT PANTS - BLACK",
+    price: "700,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/Thiet_ke_chua_co_ten__29__compressed.jpg",
+  },
+  {
+    id: "bottom-4",
+    title: "HBS MODERN LOGO JEANS",
+    price: "600,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/Thiet_ke_chua_co_ten__4__compressed_compressed__1_.jpg",
+  },
+  {
+    id: "bottom-5",
+    title: "HBS GEOMETRIC SEMI WIDE-FIT DENIM PANTS",
+    price: "850,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/Thiet_ke_chua_co_ten__11__compressed.jpg",
+  },
+  {
+    id: "bottom-6",
+    title: "HBS TIE DYE FLARED PANTS",
+    price: "700,000",
+    img: "https://bucket.nhanh.vn/store/10636/ps/20220925/q9Wi4URn.jpeg",
+  },
+];
 export const newproducts = [
   {
     id: "products-1",

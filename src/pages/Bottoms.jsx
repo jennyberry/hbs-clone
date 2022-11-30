@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar, Footer, Allitems } from '../components'
+import { Navbar, Footer, Bottom } from '../components'
 import styles from '../style'
-const Clothes = () => {
+const Bottoms = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -12,10 +12,10 @@ const Clothes = () => {
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.titleHead}`}>
-            <h1>ALL Clothes</h1>
+            <h1>ALL BOTTOMS</h1>
             <div className={`${styles.lineHeading}`}></div>
           </div>
-        <Allitems/>
+        <Bottom/>
           </div>
       </div>
       <div className={`bg-primary ${styles.flexStart}`}>
@@ -27,4 +27,4 @@ const Clothes = () => {
   )
 }
 
-export default Clothes
+export default Bottoms

@@ -3,8 +3,12 @@ import { Link, NavLink } from "react-router-dom"
 import { useState } from "react"
 import { DropdownBox } from '../components'
 import { v4 as uuidv4 } from 'uuid';
+import { HiMenuAlt4 } from 'react-icons/hi'
+import { AiOutlineClose } from 'react-icons/ai'
+
 const Navbar = () => {
-const [selected, setSelected] = useState("")
+  const [selected, setSelected] = useState("")
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
 
     <nav className="w-full flex py-6 navbar flex-col relative">

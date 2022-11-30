@@ -4,7 +4,7 @@ import React from 'react'
 import { v4 as uuidv4 } from 'uuid';
 const DropdownBox = ({selected, setSelected}) => {
     const [isOpen, setOpen] = useState(false)
-    const currencyOption = ["$AUD","$USD","VND"]
+    const currencyOption = ["AUD","VND"]
   return (
       <div className='dropdown'>
           <div className='dropdown-btn' onClick={()=> setOpen(pre => !pre)}>

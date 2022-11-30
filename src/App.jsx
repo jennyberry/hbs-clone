@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, New, Clothes, Sale, Collections, Accessories} from './pages';
+import { Home, New, Bottoms, Sale, Collections, Accessories,Tops} from './pages';
 function App() {
 
   return (
@@ -10,7 +10,9 @@ function App() {
        } />
          <Route path="hbs-clone/new" element={ <New/>
        } />
-        <Route path="hbs-clone/clothes" element={ <Clothes/>
+        <Route path="hbs-clone/tops" element={ <Tops/>
+       } />
+        <Route path="hbs-clone/bottoms" element={ <Bottoms/>
        } />
         <Route path="hbs-clone/accessories" element={ <Accessories/>
        } />
