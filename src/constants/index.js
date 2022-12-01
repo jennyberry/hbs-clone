@@ -244,7 +244,7 @@ export const collections = [
     id: "collection-2",
     title: "ESSENTIAL Collection - Autumn 2019",
     year: "2019",
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.6435-9/72689080_2606634079394418_6361952704138313728_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_ohc=O8raoLX2bawAX_iEhBb&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfCibLQiUtdFGge0Ag3-qYH6VrGezzhhwIbt6xabGGfv7g&oe=63867FE5",
+    img: "src/constants/hsb-collection/essential.jpg",
   },
   {
     id: "collection-3",
@@ -257,13 +257,13 @@ export const collections = [
     id: "collection-4",
     title: "STUDIO SESSION | DIPTERAN COLLECTION A/W16",
     year: "2016",
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t31.18172-8/15591496_1255926831131823_9101420424384008450_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=AU8tXWpfpiQAX_8pnNS&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfCx9vtoKnAISdcoNph0g_SoyVXBcl50BfmsZ2rvPKbn5w&oe=6385F3EA",
+    img: "src/constants/hsb-collection/dipteran.jpg",
   },
   {
     id: "collection-5",
     title: "HBS X VSSG | METHOD + MADNESS COLLABORATION COLLECTION",
     year: "2016",
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t31.18172-8/15590939_1260780927313080_1615483172630141805_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=XnDx20DMeCIAX-ZhnXW&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfB6BKBedq3zjylXMUaRt8iixDruqq1TGuJcx_VJEQvmpw&oe=638542A5",
+    img: "src/constants/hsb-collection/vssg-method.jpg",
   },
   {
     id: "collection-6",
