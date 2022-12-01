@@ -17,8 +17,7 @@ const Sale = () => {
           </div> */}
           <section className='flex flex-col text-center justify-center items-center my-10'>
           <h1 className='text-[30px] font-normal pt-10'> NO ITEMS ON SALE CURRENTLY</h1>
-            <img src='/assets/person-skating.png' className='object-contain py-10' />
-
+            <img src='assets/person-skating.png' className='object-contain py-10' />
           </section>
 
         {/* <Allitems/> */}

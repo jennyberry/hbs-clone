@@ -238,38 +238,37 @@ export const collections = [
     id: "collection-1",
     title: "MIDNIGHT SUN | WINTER COLLECTION 2019",
     year: "2019",
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.6435-9/78537560_2709656569092168_3651728825970065408_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=ZWYmmUUp794AX_1PGof&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfAdRWVz1gCIva0_dTDY1A6vLhIZ5T6DzgUKAAOmgM6KsQ&oe=6386CB91",
+    img: "assets/hsb-collection/midnight.jpg",
   },
   {
     id: "collection-2",
     title: "ESSENTIAL Collection - Autumn 2019",
     year: "2019",
-    img: "src/constants/hsb-collection/essential.jpg",
+    img: "assets/hsb-collection/essential.jpg",
   },
   {
     id: "collection-3",
     title: "HBS x FOMO | ‘ D e v i o u s ‘ EXCLUSIVE COLLECTION",
     year: "2018",
-
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.6435-9/28795281_1736317169759451_6429640482485174272_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=zBkBvNywgTkAX_90aRu&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfDfZ3ibhby8Kid6uIVJHJu6--1P8c7FioPoiGwSZErPqw&oe=6386A9A2",
+    img: "assets/hsb-collection/fomo.jpg",
   },
   {
     id: "collection-4",
     title: "STUDIO SESSION | DIPTERAN COLLECTION A/W16",
     year: "2016",
-    img: "src/constants/hsb-collection/dipteran.jpg",
+    img: "assets/hsb-collection/dipteran.jpg",
   },
   {
     id: "collection-5",
     title: "HBS X VSSG | METHOD + MADNESS COLLABORATION COLLECTION",
     year: "2016",
-    img: "src/constants/hsb-collection/vssg-method.jpg",
+    img: "assets/hsb-collection/vssg-method.jpg",
   },
   {
     id: "collection-6",
     title: "|HBS x TST| Oriental Power",
     year: "2019",
-    img: "https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.6435-9/71327032_2572276612830165_766346625168703488_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=BpE9pzsfQ_0AX96e8Ex&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfCPk6Z0thgRIkJhbWv3ctK4TuQnMOK6TYvMn822Sxd8Hg&oe=6386B09F",
+    img: "assets/hsb-collection/tst.jpg",
   },
 ];
 // export const footerLinks = [
